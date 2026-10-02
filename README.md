@@ -40,4 +40,4 @@ while:
 | -3 | 1 | 2 | -3, -2 | -5 | -3, -2 | -5 | Sesuai |
 
 ## Refleksi
-Jelaskan satu kesalahan perulangan yang ditemukan dan cara memperbaikinya.
+Menggunakan nama variabel yang dideklarasikan di awal ke dalam fungsi perulangan for, misalkan terdapat nama variabel di awal yaitu angka, kemudian nama variabel tersebut saya gunakan di dalam fungsi perulangan menjadi for angka in range (1, 0). Hal tersebut dapat membuat hasil menjadi berbeda. Kemudian, saya menangani permasalahan tersebut dengan cara mengganti nama variabel angka pada fungsi perulangan for dengan yang benar, yaitu i sehingga menjadi for i in range (1, 0).
